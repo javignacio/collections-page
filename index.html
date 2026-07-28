@@ -3,21 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Personal collections and archives">
+  <meta name="description" content="Javignacio's personal collections and archives">
   <title>Collections</title>
+  <link rel="icon" href="assets/coin-logo.jpg" type="image/jpeg">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="page-shell">
     <header class="site-header">
-      <div>
+      <div class="header-copy">
         <p class="eyebrow">PERSONAL ARCHIVE</p>
-        <h1>COLLECTIONS</h1>
-        <p class="intro">Independent collections, gathered in one place.</p>
+        <div class="title-row">
+          <h1>COLLECTIONS</h1>
+          <p class="intro">Five independent archives. One place.</p>
+        </div>
       </div>
       <div class="header-status" aria-live="polite">
         <span class="status-dot" aria-hidden="true"></span>
-        <span id="portal-status">Loading collection summaries…</span>
+        <span id="portal-status">Loading collections…</span>
       </div>
     </header>
 
@@ -28,7 +31,7 @@
     </main>
 
     <footer class="site-footer">
-      <span>Collection portal</span>
+      <span>Javignacio collection portal</span>
       <span id="footer-updated"></span>
     </footer>
   </div>
@@ -36,18 +39,18 @@
   <template id="collection-card-template">
     <article class="collection-card is-loading">
       <div class="card-accent" aria-hidden="true"></div>
-      <div class="card-heading">
+      <div class="brand-area">
         <div class="collection-icon" aria-hidden="true"></div>
-        <div class="heading-copy">
-          <p class="collection-kicker"></p>
-          <h2 class="collection-title"></h2>
-        </div>
+        <p class="collection-kicker"></p>
       </div>
-      <p class="collection-description"></p>
+      <div class="card-copy">
+        <h2 class="collection-title"></h2>
+        <p class="collection-description"></p>
+      </div>
       <div class="metrics" aria-label="Collection metrics"></div>
       <div class="card-footer">
         <span class="updated-label"></span>
-        <a class="open-link" href="#">Open collection <span aria-hidden="true">→</span></a>
+        <a class="open-link" href="#">Open <span aria-hidden="true">↗</span></a>
       </div>
     </article>
   </template>

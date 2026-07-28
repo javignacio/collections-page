@@ -2,46 +2,55 @@
   {
     "id": "numista",
     "label": "NUMISMATICS",
+    "title": "Coin Collection",
     "summaryUrl": "../numista-page/summary.json",
     "pageUrl": "../numista-page/",
     "localSummaryUrl": "demo/numista.json",
-    "accent": "#d0a83e",
-    "icon": "coin"
+    "accent": "#d4aa3f",
+    "logo": "assets/coin-logo.jpg",
+    "logoStyle": "photo"
   },
   {
     "id": "mario",
-    "label": "VIDEO GAMES",
+    "label": "SUPER MARIO",
+    "title": "Super Mario Game Collection",
     "summaryUrl": "../mario-collection-page/summary.json",
     "pageUrl": "../mario-collection-page/",
     "localSummaryUrl": "demo/mario.json",
-    "accent": "#d9514e",
-    "icon": "game"
+    "accent": "#e43a2f",
+    "logo": "assets/mario-platforms.png"
   },
   {
     "id": "linkin-park",
-    "label": "MUSIC",
+    "label": "PHYSICAL MUSIC",
+    "title": "Linkin Park Collection",
     "summaryUrl": "../linkin-park-collection-page/summary.json",
     "pageUrl": "../linkin-park-collection-page/",
     "localSummaryUrl": "demo/linkin-park.json",
-    "accent": "#9fa6b2",
-    "icon": "disc"
+    "accent": "#c4c9d1",
+    "logo": "assets/linkin-park-logo-2024.svg",
+    "logoStyle": "dark"
   },
   {
     "id": "football-shirts",
     "label": "FOOTBALL SHIRTS",
+    "title": "Football Shirt Collection",
     "summaryUrl": "../shirts-collection-page/summary.json",
     "pageUrl": "../shirts-collection-page/",
     "localSummaryUrl": "demo/football-shirts.json",
-    "accent": "#4e7ed1",
-    "icon": "shirt"
+    "accent": "#437fda",
+    "logo": "assets/shirt.svg",
+    "logoStyle": "accent"
   },
   {
     "id": "partidos-uch",
     "label": "MATCH ARCHIVE",
+    "title": "Partidos UCH",
     "summaryUrl": "../partidos-uch-page/summary.json",
     "pageUrl": "../partidos-uch-page/",
     "localSummaryUrl": "demo/partidos-uch.json",
-    "accent": "#d64242",
-    "icon": "stadium"
+    "accent": "#df4141",
+    "logo": "assets/stadium.svg",
+    "logoStyle": "accent"
   }
 ]
