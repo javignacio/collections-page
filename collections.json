@@ -1,0 +1,47 @@
+[
+  {
+    "id": "numista",
+    "label": "NUMISMATICS",
+    "summaryUrl": "../numista-page/summary.json",
+    "pageUrl": "../numista-page/",
+    "localSummaryUrl": "demo/numista.json",
+    "accent": "#d0a83e",
+    "icon": "coin"
+  },
+  {
+    "id": "mario",
+    "label": "VIDEO GAMES",
+    "summaryUrl": "../mario-collection-page/summary.json",
+    "pageUrl": "../mario-collection-page/",
+    "localSummaryUrl": "demo/mario.json",
+    "accent": "#d9514e",
+    "icon": "game"
+  },
+  {
+    "id": "linkin-park",
+    "label": "MUSIC",
+    "summaryUrl": "../linkin-park-collection-page/summary.json",
+    "pageUrl": "../linkin-park-collection-page/",
+    "localSummaryUrl": "demo/linkin-park.json",
+    "accent": "#9fa6b2",
+    "icon": "disc"
+  },
+  {
+    "id": "football-shirts",
+    "label": "FOOTBALL SHIRTS",
+    "summaryUrl": "../shirts-collection-page/summary.json",
+    "pageUrl": "../shirts-collection-page/",
+    "localSummaryUrl": "demo/football-shirts.json",
+    "accent": "#4e7ed1",
+    "icon": "shirt"
+  },
+  {
+    "id": "partidos-uch",
+    "label": "MATCH ARCHIVE",
+    "summaryUrl": "../partidos-uch-page/summary.json",
+    "pageUrl": "../partidos-uch-page/",
+    "localSummaryUrl": "demo/partidos-uch.json",
+    "accent": "#d64242",
+    "icon": "stadium"
+  }
+]
