@@ -13,10 +13,7 @@
     <header class="site-header">
       <div class="header-copy">
         <p class="eyebrow">PERSONAL ARCHIVE</p>
-        <div class="title-row">
-          <h1>COLLECTIONS</h1>
-          <p class="intro">Five independent archives. One place.</p>
-        </div>
+        <h1>COLLECTIONS</h1>
       </div>
       <div class="header-status" aria-live="polite">
         <span class="status-dot" aria-hidden="true"></span>
@@ -32,13 +29,15 @@
 
     <footer class="site-footer">
       <span>Javignacio collection portal</span>
-      <span id="footer-updated"></span>
+      <span class="footer-right"><a href="credits.html">Image credits</a><span id="footer-updated"></span></span>
     </footer>
   </div>
 
   <template id="collection-card-template">
     <article class="collection-card is-loading">
       <div class="card-accent" aria-hidden="true"></div>
+      <div class="card-watermark" aria-hidden="true"></div>
+      <div class="card-shade" aria-hidden="true"></div>
       <div class="brand-area">
         <div class="collection-icon" aria-hidden="true"></div>
         <p class="collection-kicker"></p>
@@ -47,6 +46,7 @@
         <h2 class="collection-title"></h2>
         <p class="collection-description"></p>
       </div>
+      <div class="card-spacer" aria-hidden="true"></div>
       <div class="metrics" aria-label="Collection metrics"></div>
       <div class="card-footer">
         <span class="updated-label"></span>

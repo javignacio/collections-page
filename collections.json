@@ -8,7 +8,8 @@
     "localSummaryUrl": "demo/numista.json",
     "accent": "#d4aa3f",
     "logo": "assets/coin-logo.jpg",
-    "logoStyle": "photo"
+    "logoStyle": "photo",
+    "watermark": "assets/watermark-coin.webp"
   },
   {
     "id": "mario",
@@ -18,7 +19,9 @@
     "pageUrl": "../mario-collection-page/",
     "localSummaryUrl": "demo/mario.json",
     "accent": "#e43a2f",
-    "logo": "assets/mario-platforms.png"
+    "logo": "assets/mario-sprite.png",
+    "logoStyle": "sprite",
+    "watermark": "assets/watermark-mario.webp"
   },
   {
     "id": "linkin-park",
@@ -29,7 +32,8 @@
     "localSummaryUrl": "demo/linkin-park.json",
     "accent": "#c4c9d1",
     "logo": "assets/linkin-park-logo-2024.svg",
-    "logoStyle": "dark"
+    "logoStyle": "dark",
+    "watermark": "assets/watermark-linkin-park.webp"
   },
   {
     "id": "football-shirts",
@@ -39,8 +43,9 @@
     "pageUrl": "../shirts-collection-page/",
     "localSummaryUrl": "demo/football-shirts.json",
     "accent": "#437fda",
-    "logo": "assets/shirt.svg",
-    "logoStyle": "accent"
+    "logo": "assets/uch-shirt-icon.png",
+    "logoStyle": "shirt",
+    "watermark": "assets/watermark-shirts.webp"
   },
   {
     "id": "partidos-uch",
@@ -50,7 +55,8 @@
     "pageUrl": "../partidos-uch-page/",
     "localSummaryUrl": "demo/partidos-uch.json",
     "accent": "#df4141",
-    "logo": "assets/stadium.svg",
-    "logoStyle": "accent"
+    "logo": "assets/uch-emblem.png",
+    "logoStyle": "crest",
+    "watermark": "assets/watermark-partidos.webp"
   }
 ]

@@ -1,10 +1,5 @@
 "use strict";
 
-const FALLBACK_ICONS = {
-  shirt: "assets/shirt.svg",
-  stadium: "assets/stadium.svg"
-};
-
 const grid = document.querySelector("#collection-grid");
 const template = document.querySelector("#collection-card-template");
 const portalStatus = document.querySelector("#portal-status");
@@ -34,11 +29,10 @@ function normalizeMetrics(metrics) {
     .slice(0, 3);
 }
 
-function applyCollectionLogo(card, config) {
+function applyCollectionVisuals(card, config) {
   const icon = card.querySelector(".collection-icon");
-  const logo = config.logo || FALLBACK_ICONS[config.icon] || FALLBACK_ICONS.stadium;
   const image = document.createElement("img");
-  image.src = logo;
+  image.src = config.logo;
   image.alt = "";
   image.decoding = "async";
   image.loading = "eager";
@@ -47,13 +41,22 @@ function applyCollectionLogo(card, config) {
   if (config.logoStyle === "photo") icon.classList.add("is-photo");
   if (config.logoStyle === "dark") icon.classList.add("is-dark");
   if (config.logoStyle === "accent") icon.classList.add("is-accent");
+  if (config.logoStyle === "crest") icon.classList.add("is-crest");
+  if (config.logoStyle === "sprite") icon.classList.add("is-sprite");
+  if (config.logoStyle === "shirt") icon.classList.add("is-shirt");
+
+  const watermark = card.querySelector(".card-watermark");
+  if (config.watermark) {
+    watermark.style.backgroundImage = `url("${config.watermark}")`;
+  }
 }
 
 function createLoadingCard(config) {
   const card = template.content.firstElementChild.cloneNode(true);
   card.dataset.collectionId = config.id;
+  card.classList.add(`collection-${config.id}`);
   card.style.setProperty("--accent", config.accent || "#9ca3af");
-  applyCollectionLogo(card, config);
+  applyCollectionVisuals(card, config);
   card.querySelector(".collection-kicker").textContent = config.label || "COLLECTION";
   card.querySelector(".collection-title").textContent = "Loading collection";
   card.querySelector(".collection-description").textContent = "Loading the latest published summary.";
